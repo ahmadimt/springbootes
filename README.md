@@ -9,7 +9,3 @@ Caution: Be aware Spring Boot 1.3.2.Release is optimized for Elasticsearch 1.5.2
   }
 
 ```
-
-
-
-
