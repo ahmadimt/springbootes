@@ -6,12 +6,6 @@ Caution: Be aware Spring Boot 1.3.2.Release is optimized for Elasticsearch 1.5.2
 ```
   buildscript {
   	ext['elasticsearch.version'] = '1.7.4'
-  	repositories {
-  		mavenCentral()
-  	}
-  	dependencies {
-  		classpath "io.spring.gradle:dependency-management-plugin:0.5.4.RELEASE"
-  	}
   }
 
 ```
