@@ -6,7 +6,9 @@ Caution: Be aware Spring Boot 1.3.2.Release is compatible with Elasticsearch 1.5
 
 ```
   buildscript {
+    ......
   	ext['elasticsearch.version'] = '1.7.4'
+  	......
   }
 
 ```
