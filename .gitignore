@@ -1,0 +1,14 @@
+*.class
+**/target
+**/.classpath
+**/.project
+**/.settings
+**/.springBeans
+**/bin
+**/build
+.DS_Store
+.gradle
+/build/
+/bin/
+.gradle/**
+*.md
