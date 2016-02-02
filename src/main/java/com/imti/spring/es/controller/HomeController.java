@@ -23,6 +23,11 @@ public class HomeController {
 	@Autowired
 	ElasticSearchServiceImpl elasticService;
 
+	@RequestMapping("/")
+	public String getHomePage(){
+		return "home";
+	}
+
 	@RequestMapping("/settings/{name}")
 	public String getIndexSettings(Model model, @PathVariable String indexName) throws IndexNotFoundException {
 		model.addAttribute("settings", elasticService.getIndexSettings(indexName));
