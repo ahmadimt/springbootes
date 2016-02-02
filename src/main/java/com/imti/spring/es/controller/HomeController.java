@@ -25,8 +25,8 @@ public class HomeController {
 
 	@RequestMapping("/settings/{name}")
 	public String getIndexSettings(Model model, @PathVariable String indexName) throws IndexNotFoundException {
-		model.addAttribute("settings", elasticService.getIndexData(indexName));
-		System.out.println(elasticService.getIndexData(indexName));
+		model.addAttribute("settings", elasticService.getIndexSettings(indexName));
+		System.out.println(elasticService.getIndexSettings(indexName));
 		return "home";
 	}
 

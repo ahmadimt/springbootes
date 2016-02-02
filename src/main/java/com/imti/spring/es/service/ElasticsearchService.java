@@ -16,5 +16,5 @@ public interface ElasticsearchService {
 
 	boolean createIndex(String indexName) throws IndexAlreadyExistsException;
 
-	Map<String, String> getIndexData(String indexName) throws IndexNotFoundException;
+	Map<String, String> getIndexSettings(String indexName) throws IndexNotFoundException;
 }

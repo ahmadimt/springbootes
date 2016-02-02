@@ -24,7 +24,7 @@ public class ElasticSearchServiceImpl implements ElasticsearchService {
 	ElasticsearchTemplate elasticsearchTemplate;
 
 	@SuppressWarnings("unchecked")
-	public Map<String, String> getIndexData(String indexName) throws IndexNotFoundException {
+	public Map<String, String> getIndexSettings(String indexName) throws IndexNotFoundException {
 		Map<String, String> result = new HashMap<String, String>();
 		if (elasticsearchTemplate.indexExists(indexName)) {
 			result = elasticsearchTemplate.getSetting(indexName);
