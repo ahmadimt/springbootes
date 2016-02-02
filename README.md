@@ -12,3 +12,11 @@ Caution: Be aware Spring Boot 1.3.2.Release is compatible with Elasticsearch 1.5
   }
 
 ```
+Steps for running the application
+======================================================
+
+1. Start Elasticsearch.
+2. Go to the root of the project and run:   ``` ./gradlew clean build ```
+3. Once the build is successful,run ``` java -jar build/libs/springbootes-0.0.1-SNAPSHOT.jar ```
+4. Open ```http://localhost:8080``` in browser
+    
