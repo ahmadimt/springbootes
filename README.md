@@ -1,5 +1,5 @@
 # Spring Boot Elasticsearch Demo Application
-[![Build Status](https://travis-ci.org/ahmadimt/springbootes.svg?branch=master)]
+![Build Status](https://travis-ci.org/ahmadimt/springbootes.svg?branch=master)
 
 In this, we are going to see how to configure Elasticsearch with Spring Boot application. We will be using Spring Boot 1.3.2.Release. It comes with Elasticsearch 1.5.2. If you want to use another version, you can do it by defining following in your build.gradle. 
 
