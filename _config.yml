@@ -1,0 +1,8 @@
+title: Springbootes
+description: Spring boot Elasticsearch
+google_analytics: UA-73290839-1
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
